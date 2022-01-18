@@ -32,11 +32,11 @@
                         </div>
                     </li>
                     <li>
-                        <input class="stakeAllbtn btn" id="claim" onclick="claimbalance()" value="CLAIM" type="button">
+                        <input class="btn" id="claim" onclick="claimbalance()" value="CLAIM" type="button">
                     </li>
                     <li>
-                        <input class="stakeAllbtn btn" id="loggedout" onclick="WalletListVisible(!0)" value="LOGIN" type="button">
-                        <input class="stakeAllbtn btn" id="loggedin" onclick="logout()" style="display: none;" value="LOGOUT" type="button">
+                        <input class="btn" id="loggedout" onclick="WalletListVisible(!0)" value="LOGIN" type="button">
+                        <input class="btn" id="loggedin" onclick="logout()" style="display: none;" value="LOGOUT" type="button">
                     </li>
                 </ul>
             </nav>
@@ -61,9 +61,9 @@
                                 Staked assets : <span class="dashtxt" id="stakedcount"></span><br>
                                 Time to claim: <span class="dashtxt" id="timetor"></span></p>
                             <div id="staking" style="display: none;">
-                            <input class="stakeAllbtn btn" id = "stkall" onclick="stakeall()" value="STAKE ALL" type="button">
-                            <input class="stakeAllbtn btn" onclick="switchstaked(false)" value="STAKED" type="button">
-                            <input class="stakeAllbtn btn" onclick="switchstaked(true)" value="UNSTAKED" type="button">
+                            <input class="stakeAllbtn" id = "stkall" onclick="stakeall()" value="STAKE ALL" type="button">
+                            <input class="stakeAllbtn" onclick="switchstaked(false)" value="STAKED" type="button">
+                            <input class="stakeAllbtn" onclick="switchstaked(true)" value="UNSTAKED" type="button">
                             </div>
                         </li>
                     </ul>

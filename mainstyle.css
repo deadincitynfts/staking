@@ -421,6 +421,17 @@
         margin: 0px 16px 8px 16px;
     }
 
+    .btn{
+        
+        text-align: center;
+        font-size: 16px;
+        margin: 0 2px;
+        color: #ff0000;
+        background-color: transparent;
+        font-weight: bold;
+        border:none;
+    }
+
     .btn:hover{
         transition-duration: 0.5s;
         transform: scale(0.9,0.9);
@@ -642,7 +653,7 @@
         font-size: 10px;
     }
     .btn{
-        width: 100px;
+        width: 80px;
         height: 40px;
         padding: 0px 5px;
         color: #ff0000;
@@ -653,7 +664,6 @@
         color: white;
         font-size: 14px;
         font-family: Oswald;
-        padding: 0px 20px;
     }
 
     .img{
@@ -673,6 +683,12 @@
         height: 30px;
         color: #ff0000;
     }
+
+    .stakeAllbtn:hover{
+        transition-duration: 0.5s;
+        transform: scale(0.9,0.9);
+    }
+
     .maindiv{
         height:100%;
         width: 90%;
