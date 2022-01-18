@@ -630,6 +630,7 @@
     .logoimg{
         width: 80px;
         height: 65px;
+        margin-left: 10px;
     }
     #tablecontainer {
         display: block;
@@ -641,14 +642,10 @@
         font-size: 10px;
     }
     .btn{
-        width: 70px;
+        width: 100px;
         height: 40px;
-        padding: 0px 3px;
-        color: purple;
-    }
-
-    .blc{
-        
+        padding: 0px 5px;
+        color: #ff0000;
     }
 
     .balance{
@@ -656,6 +653,7 @@
         color: white;
         font-size: 14px;
         font-family: Oswald;
+        padding: 0px 20px;
     }
 
     .img{
@@ -663,20 +661,23 @@
         height: 1px;
     }
 
-
+    .secondheader{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
 
     .stakeAllbtn{
         margin-left: auto;
         width: 100px;
         height: 30px;
-        color: purple;
+        color: #ff0000;
     }
     .maindiv{
         height:100%;
         width: 90%;
         position: absolute;
         font: 16px/26px;
-        border-style: solid;
         display: none;
         overflow: scroll;
         overflow-x: hidden;
@@ -702,12 +703,6 @@
         height: 80%;
     }
 
-    .packimg {
-        width: 200px;
-        height: auto;
-        padding: 5px;
-    }
-
     .inc{
         border: 1px solid black;
         width: 35px;
@@ -718,7 +713,7 @@
     }
     .nftimg{
         width: 100%;
-        height: 170px;
+        height: 350px;
     }
     body{
         overflow-x: hidden;
